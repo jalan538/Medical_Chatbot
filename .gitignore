@@ -1,0 +1,19 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+
+# FAISS vector database
+vectorestore/
+
+# Large/local data
+data/
+
+# IDE
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
